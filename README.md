@@ -1,3 +1,15 @@
+### This is a fork from Guidance 0.0.64. The goal is to adapt it following [this fork](https://github.com/paolorechia/local-guidance) to make it possible to use local models with the latest Guidance.
+
+## Instructions
+
+1. Start your [`text-generation-web-ui`](https://github.com/oobabooga/text-generation-webui) instance with the `--api` flag added to `webui.py`.
+2. `git clone https://github.com/cb-ms/local_guidance.git`
+3. `cd local-guidance`
+4. `pip install -e .`
+5. <em>`python3 test_example.py`</em>
+
+
+
 <div align="right"><a href="https://guidance.readthedocs.org"><img src="https://readthedocs.org/projects/guidance/badge/?version=latest&style=flat" /></a></div>
 <div align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/figures/guidance_logo_blue_dark.svg">
